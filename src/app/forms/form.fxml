@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400" prefWidth="600" styleClass="">
+  <children>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#17162d" focusTraversable="false" height="400" id="rect" layoutX="0" layoutY="0" stroke="#17162d" strokeType="INSIDE" strokeWidth="2" styleClass="" width="600"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="368" id="image" layoutX="0" layoutY="24" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="600">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#1f1e34" focusTraversable="false" height="24" id="rectAlt" layoutX="0" layoutY="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="600"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="0" layoutY="0" prefHeight="24" prefWidth="600" styleClass="label " text="VimeCleaner" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI Bold" size="13"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#2d3443" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="248" layoutY="88" prefHeight="32" prefWidth="88" styleClass="check-box jfx-check-box " text="Скины" textAlignment="LEFT" textFill="#ffffff" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#1f1e34" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#e64d4d" id="button" layoutX="572" layoutY="0" prefHeight="23" prefWidth="23" styleClass="x-flat-button " text="X" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#1f1e34" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#e6b34d" id="buttonAlt" layoutX="544" layoutY="0" prefHeight="23" prefWidth="23" styleClass="x-flat-button " text="-" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/1.jpg" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#1f1e34" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#4d66cc" id="button3" layoutX="514" layoutY="0" prefHeight="23" prefWidth="23" styleClass="x-flat-button " text="?" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="13"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button3" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#2d3443" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkboxAlt" layoutX="248" layoutY="120" prefHeight="32" prefWidth="88" styleClass="check-box jfx-check-box " text="Плащи" textAlignment="LEFT" textFill="#ffffff" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkboxAlt" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#2d3443" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox3" layoutX="248" layoutY="152" prefHeight="32" prefWidth="128" styleClass="check-box jfx-check-box " text="Логи MiniGames" textAlignment="LEFT" textFill="#ffffff" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox3" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#2d3443" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox4" layoutX="248" layoutY="184" prefHeight="32" prefWidth="187" styleClass="check-box jfx-check-box " text="Краш-репорты MiniGames" textAlignment="LEFT" textFill="#ffffff" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox4" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#2d3443" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox5" layoutX="248" layoutY="216" prefHeight="32" prefWidth="112" styleClass="check-box jfx-check-box " text="Логи CivCraft" textAlignment="LEFT" textFill="#ffffff" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox5" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#2d3443" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox6" layoutX="248" layoutY="248" prefHeight="32" prefWidth="112" styleClass="check-box jfx-check-box " text="Логи лаунчера" textAlignment="LEFT" textFill="#ffffff" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox6" visible="1"/>
+    <com.jfoenix.controls.JFXCheckBox alignment="CENTER_LEFT" checkedColor="#2d3443" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox7" layoutX="248" layoutY="280" prefHeight="32" prefWidth="112" styleClass="check-box jfx-check-box " text="Кеш Texteria" textAlignment="LEFT" textFill="#ffffff" unCheckedColor="#5a5a5a" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXCheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox7" visible="1"/>
+    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="240" layoutY="328" prefHeight="32" prefWidth="144" style="-fx-background-color: #3d3b5a;" styleClass="button jfx-button " text="Очистить!" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Microsoft JhengHei UI" size="13"/>
+      </font>
+    </com.jfoenix.controls.JFXButton>
+    <Data cursor="HAND" enabled="1" id="data-button5" visible="1"/>
+  </children>
+</AnchorPane>
